@@ -1,12 +1,9 @@
-alias ss="cd ~/Sites"
+alias ss="cd ~/Code"
 alias dc="docker-compose"
-alias dcwpbash="docker-compose exec wordpress /bin/bash -l"
 alias dnsflush="sudo killall -HUP mDNSResponder;echo '🚽  DNS cache has been flushed.'"
 alias hosts="sudo nano /etc/hosts"
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-alias dsstore='sudo defaults write /Library/Preferences/com.apple.desktopservices DSDontWriteNetworkStores -string true'
-alias vhosts="vim /usr/local/etc/httpd/extra/httpd-vhosts.conf"
 alias tx="tmuxinator"
 alias tdc="tmux detach-client"
 

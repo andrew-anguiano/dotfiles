@@ -6,6 +6,7 @@ alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias tx="tmuxinator"
 alias tdc="tmux detach-client"
+alias ls="exa"
 
 alias parceldev="NODE_DEBUG=fs,node node --inspect ~/Sites/parcel/packages/core/parcel-bundler/bin/cli.js"
 

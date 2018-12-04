@@ -15,6 +15,7 @@ antigen bundle npm
 antigen bundle osx
 antigen bundle sudo
 antigen bundle yarn
+antigen bundle robbyrussell/oh-my-zsh plugins/z
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 
@@ -81,7 +82,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker gem gitfast github jira jsontools lol meteor ng node npm nyan osx sudo web-search yarn)
+plugins=(docker gem gitfast github jira jsontools lol meteor ng node npm nyan osx sudo web-search yarn z)
 
 #source ~/.oh-my-zsh/oh-my-zsh.sh
 

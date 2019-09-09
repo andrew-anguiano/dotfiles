@@ -34,7 +34,7 @@ Plugin 'moll/vim-node'
 
 " JS stuff
 Plugin 'pangloss/vim-javascript'
-Plugin 'heavenshell/vim-jsdoc'
+" Plugin 'heavenshell/vim-jsdoc'
 
 
 " Plugin 'mxw/vim-jsx'
@@ -47,10 +47,13 @@ if has("nvim")
   Plugin 'wokalski/autocomplete-flow'
   Plugin 'Shougo/neosnippet'
   Plugin 'Shougo/neosnippet-snippets'
-  Plugin 'carlitux/deoplete-ternjs'
+  " Plugin 'carlitux/deoplete-ternjs'
+  " Plugin 'chemzqm/vim-jsx-improve'
+  " Plugin 'Shougo/echodoc.vim'
+  
+  " Angular/TS
+  Plugin 'HerringtonDarkholme/yats.vim'
   Plugin 'mhartington/nvim-typescript'
-  Plugin 'chemzqm/vim-jsx-improve'
-  Plugin 'Shougo/echodoc.vim'
 endif
 
 call vundle#end()
@@ -254,15 +257,16 @@ let g:ale_linters = {
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
-let g:echodoc#enable_at_startup = 1
-let g:deoplete#sources#ternjs#tern_bin = '/usr/local/bin/ternjs'
-let g:deoplete#sources#ternjs#types = 1
-let g:deoplete#sources#ternjs#docs = 1
-let g:deoplete#sources#ternjs#filetypes = [
-  \ 'jsx',
-  \ 'javascript.jsx',
-  \ 'vue'
-  \ ]
+" let g:echodoc#enable_at_startup = 1
+"let g:deoplete#sources#ternjs#tern_bin = '/usr/local/bin/ternjs'
+"let g:deoplete#sources#ternjs#types = 1
+"let g:deoplete#sources#ternjs#docs = 1
+"let g:deoplete#sources#ternjs#filetypes = [
+"  \ 'jsx',
+"  \ 'javascript.jsx',
+"  \ 'vue'
+"  \ ]
+
 " neosnippet
 let g:neosnippet#enable_completed_snippet = 1
 

@@ -8,6 +8,7 @@ alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 alias tx="tmuxinator"
 alias tdc="tmux detach-client"
 alias ls="exa"
+alias ws="webstorm ."
 
 alias parceldev="NODE_DEBUG=fs,node node --inspect ~/Sites/parcel/packages/core/parcel-bundler/bin/cli.js"
 

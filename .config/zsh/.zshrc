@@ -2,6 +2,10 @@
 export PATH="$PATH:$HOME/bin"
 # Add Yarn global packages
 export PATH="$PATH:`yarn global bin`"
+# Add Composer vendor
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+# GCC
+export PATH="$PATH:/usr/local/opt/avr-gcc@7/bin"
 
 # Antigen Start ==========================
 source /usr/local/share/antigen/antigen.zsh

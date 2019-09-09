@@ -12,6 +12,20 @@
 
 [fetch]
   prune = true
+[commit]
+  template = ~/.gitmessage
 
 [log]
   date = relative
+[user]
+	name = Andrew Anguiano
+	email = andrew.anguiano@amobee.com
+[core]
+	excludesfile = /Users/andrew.anguiano/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

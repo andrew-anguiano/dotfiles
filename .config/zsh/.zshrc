@@ -111,7 +111,7 @@ plugins=(docker gem gitfast github jira jsontools lol meteor ng node npm nyan os
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 autoload -U promptinit; promptinit
-prompt pure
+#prompt pure
 
 autoload bashcompinit
 bashcompinit

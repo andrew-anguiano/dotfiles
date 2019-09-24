@@ -1,5 +1,5 @@
-alias ss="cd ~/Code"
-alias am="cd ~/Code/amobee"
+alias ss="cd ~/dev"
+alias am="cd ~/dev/amobee"
 alias dc="docker-compose"
 alias dnsflush="sudo killall -HUP mDNSResponder;echo '🚽  DNS cache has been flushed.'"
 alias hosts="sudo nano /etc/hosts"

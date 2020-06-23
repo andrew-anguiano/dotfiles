@@ -1,7 +1,7 @@
 # Add my local bin
 export PATH="$PATH:$HOME/bin"
 # Add Yarn global packages
-export PATH="$PATH:`yarn global bin`"
+#export PATH="$PATH:`yarn global bin`"
 # Add Composer vendor
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 # GCC
@@ -86,7 +86,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker gem gitfast github jira jsontools lol meteor ng node npm nyan osx sudo web-search yarn z)
+plugins=(docker gem gitfast github jira jsontools lol ng node npm nyan osx sudo web-search yarn z)
 
 #source ~/.oh-my-zsh/oh-my-zsh.sh
 
